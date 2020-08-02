@@ -127,6 +127,7 @@
                 app:title="@string/picker_title" />
 
             <com.google.android.material.card.MaterialCardView
+                 android:layoutDirection="ltr"                          
                 android:id="@+id/cardSearch"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/card_search_height"
